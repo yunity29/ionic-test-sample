@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  // 追加
+  public title = 'Tab 1';
   constructor() {}
+
+  public returnTitle() {
+    return 'return ' + this.title;
+  }
 
 }
